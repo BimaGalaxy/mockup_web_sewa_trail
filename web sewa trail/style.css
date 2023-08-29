@@ -1,0 +1,252 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(federation.ttf);
+}
+
+/* Index.html */
+#hero{
+    font-family: myFont;
+    width: 100%;
+    height: 100vh;
+    /* background: url(img/ktm-my24-SIX-DAYS-homepage-2_XLarge\ 1.png); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/ktm-my24-SIX-DAYS-homepage-2_XLarge\ 1.png);
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    width: 161px;
+    height: 145px;
+    background: url(img/Group\ 20.png) no-repeat;
+    transition-duration: 0.4s;
+}
+
+.logo:hover {
+    background: url("img/Group\ 21.png") no-repeat;
+}
+
+.container-navbar{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.navbar{
+     display: flex;
+     margin-bottom: 100px;
+}
+
+.menu {
+    float: right;
+    margin-left: 896px;
+}
+
+.menu a{
+    display: inline-block;
+    color: white;
+    padding-top: 55px;
+    margin-left: 20px;
+    font-size: 23px; 
+    transition-duration: 0.4s;
+    letter-spacing: 0.5s;
+}
+
+.navbar .menu a:hover{
+    color: #FF6600;
+    border-bottom: 2px solid #FF6600;
+    padding-bottom: 10px;
+}
+
+.hero-box{
+    width: 50%;
+    margin-top: 200px;
+}
+
+.hero-box .hero-heading{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.hero-box .hero-desc{
+    color: white;
+    font-size: 28px;
+    line-height: 27px;
+    padding: 20px 0;
+}
+
+.hero-box .btn-box{
+    margin-top: 20px;
+}
+
+.hero-box .cta-btn-discover{
+    background: #FF6600;
+    margin-right: 30px;
+    padding: 15px 40px;
+    color: black;
+    transition: 0.5s;
+}
+
+.hero-box .cta-btn-discover:hover{
+    background: transparent;
+    color: white;
+}
+
+.content-space {
+    background-color: white; 
+    height:10vh;
+    text-align: center;
+}
+
+.kategori-text{
+    font-family: myFont;   
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.content-image-1{
+    margin-top: 5vh;
+    margin-left: 34px;
+    height: 400px;
+    max-width: 1450px;
+    background-image: url(img/Frame\ 13.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.content-category {
+    
+    display: inline-block;
+    margin-left: 34px;
+    height: 400px;
+    width: 705px;
+}
+
+#content-enduro{
+    background: url(img/content-enduro/Frame\ 16.png);
+    transition: 0.5s;
+}
+
+#content-enduro:hover{
+    background: url(img/content-enduro/Frame\ 14.png);
+}
+
+#content-adventure{
+    background: url(img/content-adventure/Frame\ 17.png);
+    transition: 0.5s;
+}
+
+#content-adventure:hover{
+    background: url(img/content-adventure/Frame\ 15.png);
+}
+
+footer{
+    display: grid;
+    place-items: center;
+    height: 230px;
+    background-color: #FF6600;
+}
+
+footer h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    position: relative;
+}
+/* Index.html end */
+
+/* motor.html */
+#hero2{
+    font-family: myFont;
+    width: 100%;
+    height: 100vh;
+    /* background: url(img/ktm-my24-SIX-DAYS-homepage-2_XLarge\ 1.png); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/motor/Frame\ 19.png);
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-box2{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.hero-box2 .hero-heading{
+    font-family:'Poppins', sans-serif;
+    color: white;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.hero-box2 .btn-box{
+    margin-top: 40px;
+}
+
+.hero-box2 .btn-box .cta-btn-enduro{
+    background: #FF6600;
+    margin-right: 100px;
+    padding: 15px 40px;
+    /* border-radius: 50px; */
+    color: black;
+    transition: 0.5s;
+}
+
+.hero-box2 .cta-btn-enduro:hover{
+    background: transparent;
+    color: #FF6600;
+}
+
+.hero-box2 .btn-box .cta-btn-adventure{
+    background: #FF6600;
+    padding: 15px 30px;
+    /* border-radius: 50px; */
+    color: black;
+    transition: 0.5s;
+}
+
+.hero-box2 .cta-btn-adventure:hover{
+    background: transparent;
+    color: #FF6600;
+}
+
+.section-box-motor{
+    height: 100vh;
+}
+
+.content-box-motor {
+    display: flex;
+    gap: .5rem;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.box-motor{
+    margin: 0 auto;
+    background-color: #FF6600;
+    aspect-ratio: 1/1;
+    height: 350px;
+}
+
+
+
+/* motor.html end */
